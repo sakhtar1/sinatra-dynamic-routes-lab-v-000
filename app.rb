@@ -41,7 +41,7 @@ class App < Sinatra::Base
       else operation == "divide"
         number1/number2
       end
-                
+
 
    end
 
