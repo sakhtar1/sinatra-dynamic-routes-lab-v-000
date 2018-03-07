@@ -21,6 +21,7 @@ class App < Sinatra::Base
       number.times do
         ph += "#{params[:phrase]}"
       end
+      ph
 
     end
 
